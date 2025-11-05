@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Libertinus+Keyboard&display=swap');
+h1{
+    font-family: "Bitcount Grid Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+
+
+#divurgente{
+    font-size: larger;
+    background-color: red;
+    padding: 25px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: rgb(10, 5, 5);
+    width: 300px; 
+    height: 200px;
+    
+    
+   
+}
+  
+
+#divnaourgente{
+    font-size: larger;
+    background-color: #ccff00;
+    padding: 25px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: black;
+    width: 300px; 
+    height: 200px;
+    
+     
+}
+
+body{
+    font-size: larger;
+    margin: 20px;
+    background-color: white;
+    
+}
+     
+
+#removernaourgente{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: medium;
+    background-color: #ffffff;
+    border: rgb(0, 0, 0) solid 2px;
+    border-radius: 5px;
+}
+#removertudonaourgente{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: medium;
+    background-color: #ffffff;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+
+#removerurgente{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: medium;
+    background-color: #ffffff;
+    border: black solid 2px;
+    border-radius: 5px;
+    
+}
+
+#removertudourgente{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: medium;
+    background-color: #ffffff;
+    border: black solid 2px;
+    border-radius: 5px;
+    
+}
+
+#urgente{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: medium;
+    background-color: #ffffff;
+    border: black solid 2px;
+    border-radius: 5px;
+    
+}
+
+#naourgente{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: medium;
+    background-color: #ffffff;
+    border: black solid 2px;
+    border-radius: 5px;
+    
+}
+.box{
+    display: flex;
+    gap: 20px;
+}
+
+

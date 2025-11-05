@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="js/ex0notas.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <div class="notas">
+    <h1>Notas</h1>
+    <label for="nota">Digite uma nova nota:</label>
+    <input type="text" id="nota" class="nota">
+    <input type="button" id="urgente" value="Urgente" onclick="urgente()">
+    <input type="button" id="naourgente" value="Não urgente" onclick="naourgente()">
+</div> 
+
+<div class="remover">
+    <div class="removernaourgente">
+        <input type="button" id="removernaourgente" value="Remover item não urgente" onclick="removernaourgente()">
+        <input type="button" id="removertudonaourgente" value="Apagar lista completa não urgente" onclick="apagartudonaourgente()">
+        </div>
+        
+    <div class="removerurgente">
+        <input type="button" id="removerurgente" value="Remover item urgente" onclick="removerurgente()">
+        <input type="button" id="removertudourgente" value="Apagar lista completa urgente" onclick="apagartudourgente()">
+        
+    </div>
+
+
+<div class="anotacoes">
+    <div class="box">
+        <div><h2>Não Urgentes</h2><div id="divnaourgente"><ul></ul></div></div>
+        <div><h2>Urgente</h2><div id="divurgente"><ul></ul></div></div>
+    </div>
+
+
+
+
+
+   
+</body>
+</html>
